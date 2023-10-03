@@ -1,0 +1,9 @@
+.git
+.dockerignore
+build
+node_modules
+*.md
+*.Dockerfile
+.github/
+.helm/
+**/.backstage

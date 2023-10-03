@@ -7,7 +7,50 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: ownFont;
+  src: url('./components/fonts/Zing-Rust.ttf');
+}
+
+.example{
+  font-size: 1.42em;
+  margin: 0 10px 0 50px;
+  font-family: ownFont;
+  color: black;
+  cursor: alias;
+}
+
+.input{
+  font-size: 1.0em;
+  margin: 0 0 0 10px;
+  font-family: ownFont;
+  border: none;
+  width: 50px;
+  outline:none;
+  cursor: pointer;
+}
+
+.green{
+  color: green;
+}
+
+.red{
+  color: red;
+}
+
+.break{
+  margin-bottom: 15px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.hide{
+  display: none;
+}
+
+.show{
+  display: inline;
 }
